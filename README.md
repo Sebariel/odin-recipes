@@ -1,3 +1,5 @@
-This is the recipes website project for the Odin Project, built only with HTML  for practicing.
+<h1>Odin Recipes Website Project</h1>
+<hr>
+<p>This is the recipes website project for the Odin Project, built only with HTML, for practicing.</p>
 
 I will make use of the HTML knowledge I have acquired up until now to create a simple website with a functioning homepage, relative links, embedded images and lists.
