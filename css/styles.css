@@ -10,17 +10,17 @@ body {
   min-width: 300px
 }
 
-.center {
-  text-align: center;
-  display: block;
-  margin: auto;
-}
-
 h1 {
   background-color: rgb(255, 247, 240);
   padding:15px;
   border: 5px solid rgb(140, 88, 6);
   width: 1200px;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+  display: block;
   margin: auto;
 }
 
@@ -30,6 +30,16 @@ h1 {
   border: 5px solid rgb(140, 88, 6);
   width: 1100px;
   margin: auto;
+}
+
+.t3 {
+  background-color: rgb(255, 247, 240);
+  padding: 15px;
+  border: 5px solid rgb(140, 88, 6);
+  width: 600px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 .img1 {
@@ -44,14 +54,9 @@ h1 {
   margin-bottom: 20px;
 }
 
-.t3 {
-  background-color: rgb(255, 247, 240);
-  padding: 15px;
+.img2 {
+  border-radius: 10%;
   border: 5px solid rgb(140, 88, 6);
-  width: 600px;
-  margin: auto;
-  margin-bottom: 20px;
-  border-radius: 10px;
 }
 
 .box1 {
@@ -69,9 +74,55 @@ h1 {
   margin: 15px;
 }
 
-.img2 {
-  border-radius: 10%;
-  border: 5px solid rgb(140, 88, 6);
+.box2 {
+  display: inline-block;
+  margin-left: 50%;
+  transform: translateX(-150%);
+  position: relative; top: 15px;
+} 
+
+.box3 {
+  display: inline-block;
+  margin-left: 50%;
+  transform: translateX(50%);
+  transform: translateY(-129%);
+  position: relative; top: 15px;
+}
+
+.box4,
+.box6 {
+  position:relative; left:680px;
+  position: relative; top: 15px;   
+}
+
+.box5 {
+  position: relative; left: 1180px;
+  position: relative; bottom: 335px;
+}
+
+.box7 {
+  position: relative; left: 1180px;
+  position: relative; bottom: 320px;
+}
+
+.box8 {
+  position: relative; left: 700px;
+  position: relative; bottom: 0px;
+}
+
+.box9 {
+  position: relative; left: 1200px;
+  position: relative; bottom: 310px;
+}
+
+.box10 {
+  position:relative; left:690px;
+  position: relative; top: 65px;
+}
+
+.box11 {
+  position: relative; left: 1200px;
+  position: relative; bottom: 271px;
 }
 
 .tp2 {
@@ -119,13 +170,6 @@ h1 {
   border: 5px solid transparent;
 }
 
-.box2 {
-  display: inline-block;
-  margin-left: 50%;
-  transform: translateX(-150%);
-  position: relative; top: 15px;
-} 
-
 ol {
   list-style: none;
   counter-reset: item;
@@ -145,14 +189,6 @@ ol li:before {
   width: 1.2em;
   text-align: center;
   display: inline-block;
-}
-
-.box3 {
-  display: inline-block;
-  margin-left: 50%;
-  transform: translateX(50%);
-  transform: translateY(-129%);
-  position: relative; top: 15px;
 }
 
 .ul {
@@ -238,42 +274,6 @@ ol li:before {
   position: relative; bottom: 267px;
 }
 
-.box4,
-.box6 {
-  position:relative; left:680px;
-  position: relative; top: 15px;   
-}
-
-.box5 {
-  position: relative; left: 1180px;
-  position: relative; bottom: 335px;
-}
-
-.box7 {
-  position: relative; left: 1180px;
-  position: relative; bottom: 320px;
-}
-
-.box8 {
-  position: relative; left: 700px;
-  position: relative; bottom: 0px;
-}
-
-.box9 {
-  position: relative; left: 1200px;
-  position: relative; bottom: 310px;
-}
-
-.box10 {
-  position:relative; left:690px;
-  position: relative; top: 65px;
-}
-
-.box11 {
-  position: relative; left: 1200px;
-  position: relative; bottom: 271px;
-}
-
 .p1,
 .p2,
 .p3,
@@ -291,11 +291,11 @@ ol li:before {
 }
 
 .p2 {
-  position: relative; top: 160px;
+  position: relative; bottom: 240px;
 }
 
 .p3 {
-  position: relative; top: 130px;
+  position: relative; bottom: 240px;
 }
 
 .p4 {
