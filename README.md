@@ -3,6 +3,6 @@
 
 I will make use of the HTML knowledge I have acquired up until now to create a simple website with a functioning homepage, relative and absolute links, lists and embedded images.
 
-Note: As of 04/18/23 CSS has been added to the website.
+Note: As of 04/18/23, CSS has been added to the website.
 
 Live website: https://sebariel.github.io/odin-recipes/
